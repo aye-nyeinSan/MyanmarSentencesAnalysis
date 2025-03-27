@@ -1,0 +1,3 @@
+[submodule "external/myWord"]
+	path = external/myWord
+	url = https://github.com/ye-kyaw-thu/myWord.git
