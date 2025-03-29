@@ -26,7 +26,8 @@ There will be multiple splitted bigram dictionary files.
 ![image](https://github.com/user-attachments/assets/ae5d8c71-c470-40e4-87dd-4897c5e47816)
 
 Then, run the following command to combine all the splitted files:
-`./combine-all-splitted-files.sh ` 
+
+`bash ./combine-all-splitted-files.sh ` 
 
 You will get the combined ngram dictionaries:
 ```
