@@ -246,8 +246,8 @@ if __name__ == "__main__":
 from external.myWord.word_segment import ProbDist, viterbi
 
 def tokenize_text(text):
-    P_unigram = ProbDist('./external/myWord/dict_ver1/unigram-word.bin', True)
-    P_bigram = ProbDist('./external/myWord/dict_ver1/bigram-word.bin', False)
+    P_unigram = ProbDist('external/myWord/dict_ver1/unigram-word.bin', True)
+    P_bigram = ProbDist('external/myWord/dict_ver1/bigram-word.bin', False)
 
     import external.myWord.word_segment as wseg
     wseg.P_unigram = P_unigram
