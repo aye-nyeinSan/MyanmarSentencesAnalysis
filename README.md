@@ -7,19 +7,25 @@
 - pandas
 
 ### How to install libraries
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 
 ### Comment Scrapping script 
 Run the following command to start the comment scrapping script:
 
- `python Comment_Scrapper.py`
+ ```
+ python Comment_Scrapper.py
+```
 
 ## SetUp
 
 ### Step 1 
 First, navigate to the external dictionary folder:
 
-`cd external/myWord/dict_ver1`
+```
+cd external/myWord/dict_ver1
+```
  
 There will be multiple splitted bigram dictionary files.
 
@@ -27,7 +33,9 @@ There will be multiple splitted bigram dictionary files.
 
 Then, run the following command to combine all the splitted files:
 
-`bash ./combine-all-splitted-files.sh ` 
+```
+bash ./combine-all-splitted-files.sh
+``` 
 
 You will get the combined ngram dictionaries:
 ```
@@ -42,10 +50,14 @@ If you're using Git, it's best not to add these files to your git lifecycle or s
 ### Step 2 
 Go to root project folder , there is `testscript.py` for testing purpose.
 
-`python testscript.py`
+```
+python testscript.py
+```
 
 check output using following command :
-`cat output.txt` 
+```
+cat output.txt
+``` 
 
 # Tokenizing with myWord
 
